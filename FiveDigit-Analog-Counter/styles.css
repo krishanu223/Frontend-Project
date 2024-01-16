@@ -1,0 +1,100 @@
+    body {
+        background-image: radial-gradient( black, gray);
+    }
+    
+    #box {
+        display: inline-block;
+        margin-left: 0%;
+        margin-top: 1%;
+        position: relative;
+        overflow: hidden;
+        width: 10%;
+        height: 30vh;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 10px greenyellow;
+    }
+    
+    button {
+        margin-left: 32%;
+        margin-top: 2%;
+        position: relative;
+        width: 200px;
+        height: 50px;
+        background-color: rgb(54, 54, 54);
+        border-radius: 25px;
+        font-size: 2rem;
+        cursor: pointer;
+        color: greenyellow;
+        box-shadow: 0px 0px 15px 2px blue;
+    }
+    
+    .gh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        height: 100%;
+        margin-top: 0px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-top: 10px dashed rgb(0, 232, 0);
+        text-shadow: 0px 0px 30px rgb(253, 253, 0);
+        font-size: 8rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    #inp {
+        border: 2px solid rgb(106, 106, 106);
+        position: relative;
+        width: 200px;
+        height: 40px;
+        background-color: rgb(54, 54, 54);
+        border-radius: 25px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: greenyellow;
+        box-shadow: 0px 0px 15px 2px blue;
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        height: 100%;
+        margin-top: 0px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-top: 10px dashed rgb(0, 232, 0);
+        text-shadow: 0px 0px 30px orange;
+        font-size: 8rem;
+        color: orange;
+    }
+    
+    p.next {
+        position: absolute;
+        top: 300px;
+    }
+    
+    p.animate {
+        transition: all 0.5s;
+        top: 0px;
+    }
+    
+    #cont {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+    
+    #bt,
+    #inp {
+        margin: 15px;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
